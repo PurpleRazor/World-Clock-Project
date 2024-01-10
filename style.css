@@ -45,13 +45,12 @@ h2 {
 }
 
 .time {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 700;
 }
 
-.ampm {
-  line-height: 50px;
-  font-size: 24px;
+small {
+  font-size: 17px;
 }
 
 footer {
