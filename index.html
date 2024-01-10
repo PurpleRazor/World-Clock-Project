@@ -12,27 +12,29 @@
     <div class="container">
       <header>
         <h1>World Clock</h1>
-        <select name="select-time-zone" id="select-time-zone">
+        <select name="select-time-zone" id="city">
           <option value="">Choose a time zone. . .</option>
-          <option value="">London</option>
-          <option value="">New York</option>
-          <option value="">Paris</option>
+          <option value="Europe/London">London</option>
+          <option value="America/New_York">New York</option>
+          <option value="Europe/Paris">Paris</option>
         </select>
       </header>
       <main>
-        <div class="city" id="sydney">
-          <div>
-            <h2>Sydney</h2>
-            <div class="date">8th Jan 2024</div>
+        <div id="cities">
+          <div class="city" id="sydney">
+            <div>
+              <h2>Sydney</h2>
+              <div class="date">8th Jan 2024</div>
+            </div>
+            <div class="time">18:10 <small class="ampm">PM</small></div>
           </div>
-          <div class="time">18:10 <small class="ampm">PM</small></div>
-        </div>
-        <div class="city" id="berlin">
-          <div>
-            <h2>Berlin</h2>
-            <div class="date">8th Jan 2024</div>
+          <div class="city" id="berlin">
+            <div>
+              <h2>Berlin</h2>
+              <div class="date">8th Jan 2024</div>
+            </div>
+            <div class="time">18:10 <small class="ampm">PM</small></div>
           </div>
-          <div class="time">18:10 <small class="ampm">PM</small></div>
         </div>
       </main>
 
