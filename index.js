@@ -45,7 +45,7 @@ function updateCity(event) {
     "A"
   )}</small></div>
   </div>
-  <a href="/">Return home</a>`;
+  <div class="home_link"><a href="/">Return home</a>`;
 }
 
 let citiesSelectElement = document.querySelector("#city");

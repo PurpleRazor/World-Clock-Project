@@ -53,6 +53,10 @@ small {
   font-size: 20px;
 }
 
+.home_link {
+  text-align: center;
+}
+
 footer {
   font-size: 11px;
   opacity: 0.8;
